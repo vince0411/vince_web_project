@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Highlighting table rows</title>
+	
+	<style>
+		body {
+		  background-color: #fff;
+		  color: #111;
+		  margin: 50px;
+		  padding: 0;
+		  font: 0.75em/1.3 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+		}
+		
+		table {
+		  border: 1px solid #D6DDE6;
+		  border-collapse: collapse;
+		  width: 80%;
+		}
+
+		td {
+		  border: 1px solid #D6DDE6;
+		  padding: 0.5em;
+		}
+
+		th {
+		  border: 1px solid #828282;
+		  background-color: #BCBCBC;
+		  text-align: left;
+		  padding-left: 0.5em;
+		}
+
+		caption {
+		  font-size: 125%;
+		  font-weight: bold;
+		  color: #33517A;
+		  text-align: left;
+		  padding: 0.5em 0 0.5em 0;
+		}
+		
+		tr:hover  { 
+        background-color: #000000; 
+        color: #; 
+		}
+		
+		
+        tr:nth-child(odd) 
+{
+background-color: #dfe7f2;
+color: #000000;
+}
+
+
+
+
+	</style>
+	
+</head>
+
+
+<body>
+		<table>
+			<caption>Student List</caption>
+			<tr>
+				<th scope="col">Student Name</th>
+				<th scope="col">Date of Birth</th>
+				<th scope="col">Class</th>
+				<th scope="col">ID</th>
+			</tr>
+			<tr>
+				<td>Joe Bloggs</td>
+				<td>27/08/1997</td>
+				<td>Mrs Jones</td>
+				<td>12009</td>
+			</tr>
+			<tr>
+				<td>William Smith</td>
+				<td>20/07/1997</td>
+				<td>Mrs Jones</td>
+				<td>12010</td>
+			</tr>
+			<tr>
+				<td>Jane Toad</td>
+				<td>21/07/1997</td>
+				<td>Mrs Jones </td>
+				<td>12030</td>
+			</tr>
+			<tr>
+				<td>Amanda Williams</td>
+				<td>19/03/1997</td>
+				<td>Mrs Edwards</td>
+				<td>12021</td>
+			</tr>
+			<tr>
+				<td>Kylie Jameson</td>
+				<td>18/05/1997</td>
+				<td>Mrs Jones</td>
+				<td>12022</td>
+			</tr>
+			<tr>
+				<td>Louise Smith</td>
+				<td>17/07/1997</td>
+				<td>Mrs Edwards</td>
+				<td>12019</td>
+			</tr>
+			<tr>
+				<td>James Jones</td>
+				<td>04/04/1997</td>
+				<td>Mrs Edwards</td>
+				<td>12007</td>
+			</tr>
+		</table>
+
+</body>
+</html>
